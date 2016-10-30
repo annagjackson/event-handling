@@ -31,12 +31,14 @@ function two () {
 
 function three (){
   var three = document.getElementById('three')
-  three.addEventListener'('mouseenter', 'makeOrange')
-  three.addEventListener('mouseleave', 'makeWhite')
+  three.addEventListener('mouseenter', makeOrange)
+  three.addEventListener('mouseleave', makeWhite)
 }
 
 function four () {
-  
+  var four = document.getElementById('four')
+  four.addEventListener('click', makeYellow)
+  four.addEventListener('click', makeWhite)
 }
 
 // Changes the background color of event's target
